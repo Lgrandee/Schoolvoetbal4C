@@ -18,19 +18,20 @@ using Windows.Foundation.Collections;
 
 namespace school
 {
-    /// <summary>
-    /// An empty window that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainWindow : Window
     {
         public MainWindow()
         {
             this.InitializeComponent();
         }
-
-        private void myButton_Click(object sender, RoutedEventArgs e)
+        private void GoToBettingPage(object sender, RoutedEventArgs e)
         {
-            myButton.Content = "Clicked";
+            MainFrame.Navigate(typeof(Betting));
+        }
+
+        private void GoToLeaderboardPage(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(typeof(Leaderboard));
         }
     }
 }

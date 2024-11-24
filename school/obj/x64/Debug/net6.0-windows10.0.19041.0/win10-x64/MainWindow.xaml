@@ -8,8 +8,35 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:ConnectionId='2' x:Name="myButton"                       >Click Me</Button>
-    </StackPanel>
+    <Grid>
+        <TextBlock Text="School Voetbal" 
+               FontSize="48" 
+               FontWeight="Bold" 
+               TextAlignment="Center" 
+               Margin="0,40,0,20" />
+
+        <Frame x:ConnectionId='2' x:Name="MainFrame" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+        <StackPanel  Spacing="20" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+
+            <Button x:ConnectionId='3' Content="Go to Betting" 
+                Width="250" 
+                Height="60" 
+                Background="Blue"
+                Foreground="White" 
+                FontSize="16" 
+                CornerRadius="10" 
+                                       />
+
+            <Button x:ConnectionId='4' Content="View Leaderboard" 
+                Width="250" 
+                Height="60" 
+                Background="Blue"
+                Foreground="White" 
+                FontSize="16" 
+                CornerRadius="10" 
+                                           />
+        </StackPanel>
+    </Grid>
 </Window>
 

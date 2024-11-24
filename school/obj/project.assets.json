@@ -1188,23 +1188,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ljt_d\\.nuget\\packages\\": {},
+    "C:\\Users\\Robin Kersten\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\school.csproj",
+      "projectUniqueName": "C:\\Users\\Robin Kersten\\source\\repos\\Schoolvoetbal4C\\school\\school.csproj",
       "projectName": "school",
-      "projectPath": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\school.csproj",
-      "packagesPath": "C:\\Users\\ljt_d\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\obj\\",
+      "projectPath": "C:\\Users\\Robin Kersten\\source\\repos\\Schoolvoetbal4C\\school\\school.csproj",
+      "packagesPath": "C:\\Users\\Robin Kersten\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Robin Kersten\\source\\repos\\Schoolvoetbal4C\\school\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ljt_d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robin Kersten\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
