@@ -10,7 +10,39 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBlock Text="Betting Page" FontSize="36" FontWeight="Bold" HorizontalAlignment="Center"/>
 
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
+            <!-- Current Balance -->
+            <TextBlock Text="Your Balance:" FontSize="16"/>
+            <TextBlock x:ConnectionId='2' x:Name="BalanceText" Text="$100" FontSize="24" FontWeight="Bold" Foreground="Green"/>
+
+            <!-- Match Title -->
+            <TextBlock Text="Bet on the Football Match" FontSize="20" FontWeight="Bold" TextAlignment="Center"/>
+
+            <!-- Match Details -->
+            <TextBlock Text="Manchester United vs. Arsenal" FontSize="16" TextAlignment="Center"/>
+
+            <!-- Betting Options -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
+                <RadioButton x:ConnectionId='6' Content="Manchester United Win" GroupName="BetOptions" x:Name="WinOption"/>
+                <RadioButton x:ConnectionId='7' Content="Draw" GroupName="BetOptions" x:Name="DrawOption"/>
+                <RadioButton x:ConnectionId='8' Content="Arsenal Win" GroupName="BetOptions" x:Name="LossOption"/>
+            </StackPanel>
+
+            <!-- Betting Amount -->
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="10">
+                <TextBlock Text="Bet Amount:" VerticalAlignment="Center" FontSize="16"/>
+                <TextBox x:ConnectionId='5' x:Name="BetAmountTextBox" Width="100" PlaceholderText="Enter amount" InputScope="Number"/>
+            </StackPanel>
+
+            <!-- Bet Button -->
+            <Button x:ConnectionId='3' Content="Place Bet" Width="120"                       />
+
+            <!-- Feedback Message -->
+            <TextBlock x:ConnectionId='4' x:Name="ResultMessage" FontSize="14" TextAlignment="Center" TextWrapping="Wrap" Foreground="Gray"/>
+        </StackPanel>
     </Grid>
 </Page>
 
