@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-22T11:12:03.379</Modified>
+      <Modified>2024-11-25T08:24:55.910</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-22T11:12:02.877</Modified>
+      <Modified>2024-11-25T08:24:55.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\school.runtimeconfig.json">
       <PackagePath>school.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\school.dll">
       <PackagePath>school.dll</PackagePath>
-      <Modified>2024-11-22T11:12:00.341</Modified>
+      <Modified>2024-11-25T08:24:55.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>school.exe</PackagePath>
-      <Modified>2024-11-22T11:12:00.515</Modified>
+      <Modified>2024-11-25T08:24:55.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\school.deps.json">
       <PackagePath>school.deps.json</PackagePath>

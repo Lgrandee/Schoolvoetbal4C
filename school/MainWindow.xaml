@@ -7,8 +7,32 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    private readonly DatabaseHelper _dbHelper = new();
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-    </StackPanel>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TabView HorizontalAlignment="Center" VerticalAlignment="Center" Width="400">
+            <!-- Tab voor Inloggen -->
+            <TabViewItem Header="Inloggen">
+                <StackPanel Spacing="20" Padding="10">
+                    <TextBox x:Name="LoginUsernameTextBox" Header="Gebruikersnaam" PlaceholderText="Voer je gebruikersnaam in" />
+                    <PasswordBox x:Name="LoginPasswordBox" Header="Wachtwoord" PlaceholderText="Voer je wachtwoord in" />
+                    <TextBlock x:Name="LoginErrorTextBlock" Foreground="Red" Visibility="Collapsed" />
+                    <Button Content="Inloggen" Click="LoginButton_Click" />
+                </StackPanel>
+            </TabViewItem>
+
+            <!-- Tab voor Registreren -->
+            <TabViewItem Header="Registreren">
+                <StackPanel Spacing="20" Padding="10">
+                    <TextBox x:Name="RegisterUsernameTextBox" Header="Gebruikersnaam" PlaceholderText="Voer een gebruikersnaam in" />
+                    <PasswordBox x:Name="RegisterPasswordBox" Header="Wachtwoord" PlaceholderText="Voer een wachtwoord in" />
+                    <PasswordBox x:Name="ConfirmRegisterPasswordBox" Header="Bevestig Wachtwoord" PlaceholderText="Bevestig je wachtwoord" />
+                    <TextBlock x:Name="RegisterErrorTextBlock" Foreground="Red" Visibility="Collapsed" />
+                    <Button Content="Registreer" Click="RegisterButton_Click" />
+                </StackPanel>
+            </TabViewItem>
+        </TabView>
+    </Grid>
+
+
 </Window>
