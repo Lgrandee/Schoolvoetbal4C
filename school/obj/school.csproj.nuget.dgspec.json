@@ -51,6 +51,10 @@
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
               "version": "[1.4.230913002, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
             }
           },
           "imports": [

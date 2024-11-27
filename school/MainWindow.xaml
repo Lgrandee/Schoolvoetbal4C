@@ -32,6 +32,37 @@
                 </StackPanel>
             </TabViewItem>
         </TabView>
+        
+        <TextBlock Text="School Voetbal" 
+               FontSize="48" 
+               FontWeight="Bold" 
+               TextAlignment="Center" 
+               Margin="0,40,0,20" />
+
+        <Frame x:Name="MainFrame" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+        <StackPanel  Spacing="20" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+
+            <Button Content="Go to Betting" 
+                Width="250" 
+                Height="60" 
+                Background="Blue"
+                Foreground="White" 
+                FontSize="16" 
+                CornerRadius="10" 
+                Click="GoToBettingPage"/>
+
+            <Button Content="View Leaderboard" 
+                Width="250" 
+                Height="60" 
+                Background="Blue"
+                Foreground="White" 
+                FontSize="16" 
+                CornerRadius="10" 
+                Click="GoToLeaderboardPage"/>
+        </StackPanel>
+
+        
     </Grid>
 
 

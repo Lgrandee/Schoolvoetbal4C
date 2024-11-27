@@ -224,11 +224,16 @@ namespace school.school_XamlTypeInfo
 
         private void InitTypeTables()
         {
+<<<<<<< HEAD
             _typeNameTable = new string[25];
+=======
+            _typeNameTable = new string[14];
+>>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
+<<<<<<< HEAD
             _typeNameTable[4] = "Microsoft.UI.Xaml.Controls.TabView";
             _typeNameTable[5] = "Microsoft.UI.Xaml.Controls.Control";
             _typeNameTable[6] = "System.Collections.Generic.IList`1<Object>";
@@ -252,10 +257,25 @@ namespace school.school_XamlTypeInfo
             _typeNameTable[24] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
 
             _typeTable = new global::System.Type[25];
+=======
+            _typeNameTable[4] = "school.Betting";
+            _typeNameTable[5] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[7] = "school.Leaderboard";
+            _typeNameTable[8] = "school.MainWindow";
+            _typeNameTable[9] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[10] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[11] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[12] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[13] = "Int32";
+
+            _typeTable = new global::System.Type[14];
+>>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
+<<<<<<< HEAD
             _typeTable[4] = typeof(global::Microsoft.UI.Xaml.Controls.TabView);
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
             _typeTable[6] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
@@ -277,6 +297,18 @@ namespace school.school_XamlTypeInfo
             _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Window);
             _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
             _typeTable[24] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+=======
+            _typeTable[4] = typeof(global::school.Betting);
+            _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[7] = typeof(global::school.Leaderboard);
+            _typeTable[8] = typeof(global::school.MainWindow);
+            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[10] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[11] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[12] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[13] = typeof(global::System.Int32);
+>>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -312,11 +344,18 @@ namespace school.school_XamlTypeInfo
         }
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
+<<<<<<< HEAD
         private object Activate_4_TabView() { return new global::Microsoft.UI.Xaml.Controls.TabView(); }
         private object Activate_15_TabViewItem() { return new global::Microsoft.UI.Xaml.Controls.TabViewItem(); }
         private object Activate_19_TabViewItemTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings(); }
         private object Activate_21_MainWindow() { return new global::school.MainWindow(); }
         private object Activate_23_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+=======
+        private object Activate_4_Betting() { return new global::school.Betting(); }
+        private object Activate_7_Leaderboard() { return new global::school.Leaderboard(); }
+        private object Activate_8_MainWindow() { return new global::school.MainWindow(); }
+        private object Activate_10_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+>>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -324,6 +363,7 @@ namespace school.school_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
+<<<<<<< HEAD
         private void VectorAdd_6_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
@@ -331,6 +371,9 @@ namespace school.school_XamlTypeInfo
             collection.Add(newItem);
         }
         private void VectorAdd_24_IList(object instance, object item)
+=======
+        private void VectorAdd_12_IList(object instance, object item)
+>>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -367,6 +410,7 @@ namespace school.school_XamlTypeInfo
                 xamlType = new global::school.school_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
+<<<<<<< HEAD
             case 4:   //  Microsoft.UI.Xaml.Controls.TabView
                 userType = new global::school.school_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
                 userType.Activator = Activate_4_TabView;
@@ -483,10 +527,16 @@ namespace school.school_XamlTypeInfo
             case 21:   //  school.MainWindow
                 userType = new global::school.school_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
                 userType.Activator = Activate_21_MainWindow;
+=======
+            case 4:   //  school.Betting
+                userType = new global::school.school_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_Betting;
+>>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 22:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::school.school_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
@@ -494,6 +544,37 @@ namespace school.school_XamlTypeInfo
             case 23:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::school.school_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_23_TreeViewNode;
+=======
+            case 5:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::school.school_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 6:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::school.school_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 7:   //  school.Leaderboard
+                userType = new global::school.school_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_Leaderboard;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  school.MainWindow
+                userType = new global::school.school_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType.Activator = Activate_8_MainWindow;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  Microsoft.UI.Xaml.Window
+                xamlType = new global::school.school_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 10:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+                userType = new global::school.school_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_10_TreeViewNode;
+>>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -505,12 +586,29 @@ namespace school.school_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 24:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::school.school_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.CollectionAdd = VectorAdd_24_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
+=======
+            case 11:   //  Microsoft.UI.Xaml.DependencyObject
+                xamlType = new global::school.school_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 12:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+                userType = new global::school.school_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.CollectionAdd = VectorAdd_12_IList;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 13:   //  Int32
+                xamlType = new global::school.school_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+>>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
             }
             return xamlType;
         }
