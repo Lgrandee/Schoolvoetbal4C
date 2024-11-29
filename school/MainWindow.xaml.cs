@@ -5,11 +5,11 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
-<<<<<<< HEAD
+
 using school;
-=======
+
 using Microsoft.VisualBasic.FileIO;
->>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
+
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -41,34 +41,27 @@ namespace school
             string username = LoginUsernameTextBox.Text;
             string password = LoginPasswordBox.Password;
 
-            var user = await _dbHelper.GetUserAsync(username, password);
+            var user = await _dbHelper.GetUser Async(username, password);
 
             if (user != null)
             {
-                LoginErrorTextBlock.Visibility = Visibility.Collapsed;
-                ContentDialog successDialog = new ContentDialog
-                {
-                    Title = "Ingelogd",
-                    Content = $"Welkom, {username}!",
-                    CloseButtonText = "OK",
-                    XamlRoot = this.Content.XamlRoot
-                };
-                await successDialog.ShowAsync();
+                // Succesvol ingelogd
             }
             else
             {
-                LoginErrorTextBlock.Text = "Ongeldige gebruikersnaam of wachtwoord.";
-                LoginErrorTextBlock.Visibility = Visibility.Visible;
+                // Foutmelding tonen
             }
         }
 
         // Registreren
         private async void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
+            // Verkrijg gebruikersinvoer
             string username = RegisterUsernameTextBox.Text;
             string password = RegisterPasswordBox.Password;
             string confirmPassword = ConfirmRegisterPasswordBox.Password;
 
+            // Validatie en toevoegen van de gebruiker
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
                 RegisterErrorTextBlock.Text = "Vul alle velden in.";
@@ -79,27 +72,17 @@ namespace school
                 RegisterErrorTextBlock.Text = "Wachtwoorden komen niet overeen.";
                 RegisterErrorTextBlock.Visibility = Visibility.Visible;
             }
-            else if (await _dbHelper.GetUserByUsernameAsync(username) != null)
-            {
+            else if (await _dbHelper.GetUser ByUsernameAsync(username) != null)
+    {
                 RegisterErrorTextBlock.Text = "Gebruikersnaam bestaat al.";
                 RegisterErrorTextBlock.Visibility = Visibility.Visible;
             }
-            else
+             else
             {
-                await _dbHelper.AddUserAsync(new User { Username = username, Password = password });
+                await _dbHelper.AddUser Async(new User { Username = username, Password = password });
                 RegisterErrorTextBlock.Visibility = Visibility.Collapsed;
-
-                ContentDialog successDialog = new ContentDialog
-                {
-                    Title = "Succes",
-                    Content = "Registratie succesvol! Je kunt nu inloggen.",
-                    CloseButtonText = "OK",
-                    XamlRoot = this.Content.XamlRoot
-                };
-                await successDialog.ShowAsync();
+                // Succesbericht tonen
             }
-
-
         }
         private void GoToBettingPage(object sender, RoutedEventArgs e)
         {
