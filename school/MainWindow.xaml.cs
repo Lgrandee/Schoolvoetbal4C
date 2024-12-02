@@ -5,14 +5,9 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
-<<<<<<< HEAD
 using school;
-=======
-using Microsoft.VisualBasic.FileIO;
->>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -33,7 +28,6 @@ namespace school
         {
             this.InitializeComponent();
         }
-
 
         // Inloggen
         private async void LoginButton_Click(object sender, RoutedEventArgs e)
@@ -98,18 +92,6 @@ namespace school
                 };
                 await successDialog.ShowAsync();
             }
-
-
-        }
-        private void GoToBettingPage(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(typeof(Betting));
-        }
-
-        private void GoToLeaderboardPage(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(typeof(Leaderboard));
         }
     }
-
 }

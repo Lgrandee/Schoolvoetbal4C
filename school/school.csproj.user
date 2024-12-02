@@ -5,12 +5,6 @@
     <None Update="App.xaml">
       <SubType>Designer</SubType>
     </None>
-    <Page Update="Leaderboard.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Betting.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <None Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </None>
