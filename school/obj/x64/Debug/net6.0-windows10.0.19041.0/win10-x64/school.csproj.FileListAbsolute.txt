@@ -602,11 +602,3 @@ C:\Users\Robin Kersten\source\repos\Schoolvoetbal4C\school\bin\x64\Debug\net6.0-
 C:\Users\Robin Kersten\source\repos\Schoolvoetbal4C\school\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\krb5_64.dll
 C:\Users\Robin Kersten\source\repos\Schoolvoetbal4C\school\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\krbcc64.dll
 >>>>>>> 45566bac55d958f3021fb04a385cc5a492f2b6e8
-C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Betting.g.i.cs
-C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Betting.g.cs
-C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Leaderboard.g.i.cs
-C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Leaderboard.g.cs
-C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Betting.xaml
-C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Leaderboard.xaml
-C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Betting.xbf
-C:\Users\ljt_d\Documents\native\Schoolvoetbal4C\school\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Leaderboard.xbf
