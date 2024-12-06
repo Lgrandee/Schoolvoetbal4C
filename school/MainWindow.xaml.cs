@@ -6,6 +6,7 @@ using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
 using school;
+using school.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,6 +14,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using school.Model;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -23,14 +25,29 @@ namespace school
     {
         // Database helper instantie
         private readonly DatabaseHelper _dbHelper = new();
+        private readonly FootballApiService _footballApiService;
 
         public MainWindow()
         {
             this.InitializeComponent();
+            _footballApiService = new FootballApiService();
         }
 
-        // Inloggen
-        private async void LoginButton_Click(object sender, RoutedEventArgs e)
+        private async void FetchTeamsButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                List<Team> teams = await _footballApiService.GetTeamsAsync();
+                TeamsListView.ItemsSource = teams;
+            }
+            catch (Exception ex)
+            {
+                // Handle errors (e.g., show a message box)
+            }
+        }
+
+            // Inloggen
+            private async void LoginButton_Click(object sender, RoutedEventArgs e)
         {
             string username = LoginUsernameTextBox.Text;
             string password = LoginPasswordBox.Password;

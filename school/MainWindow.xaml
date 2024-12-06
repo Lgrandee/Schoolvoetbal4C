@@ -32,6 +32,22 @@
                 </StackPanel>
             </TabViewItem>
         </TabView>
+
+
+        <StackPanel>
+            <Button x:Name="FetchTeamsButton" Content="Load Teams" Click="FetchTeamsButton_Click" />
+            <ListView x:Name="TeamsListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding LogoUrl}" Width="50" Height="50" Margin="5" />
+                            <TextBlock Text="{Binding Name}" FontSize="16" VerticalAlignment="Center" Margin="10,0,0,0" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+
     </Grid>
 
 
