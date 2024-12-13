@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+/*
 namespace school
 {
     public class DatabaseHelper
@@ -39,3 +40,4 @@ namespace school
         }
     }
 }
+*/

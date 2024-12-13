@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SQLite;
+
+/*
 namespace school
 {
     public class User
@@ -14,3 +15,4 @@ namespace school
         public string Password { get; set; }
     }
 }
+*/

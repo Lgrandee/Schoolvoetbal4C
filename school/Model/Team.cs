@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace school.Model
 {
-
+ 
     public class Team
     {
         public int Id { get; set; }

@@ -1,3 +1,4 @@
+using Microsoft.UI;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
@@ -16,6 +17,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using school.Model;
 
+
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
@@ -23,15 +25,17 @@ namespace school
 {
     public sealed partial class MainWindow : Window
     {
-        // Database helper instantie
-        private readonly DatabaseHelper _dbHelper = new();
+
+        //private readonly DataBaseHelper _dbHelper = new();
         private readonly FootballApiService _footballApiService;
+
 
         public MainWindow()
         {
             this.InitializeComponent();
             _footballApiService = new FootballApiService();
         }
+
 
         private async void FetchTeamsButton_Click(object sender, RoutedEventArgs e)
         {
@@ -47,34 +51,38 @@ namespace school
         }
 
             // Inloggen
-            private async void LoginButton_Click(object sender, RoutedEventArgs e)
+            //private async void LoginButton_Click(object sender, RoutedEventArgs e)
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+
         {
             string username = LoginUsernameTextBox.Text;
             string password = LoginPasswordBox.Password;
 
-            var user = await _dbHelper.GetUserAsync(username, password);
-
-            if (user != null)
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
-                LoginErrorTextBlock.Visibility = Visibility.Collapsed;
-                ContentDialog successDialog = new ContentDialog
-                {
-                    Title = "Ingelogd",
-                    Content = $"Welkom, {username}!",
-                    CloseButtonText = "OK",
-                    XamlRoot = this.Content.XamlRoot
-                };
-                await successDialog.ShowAsync();
+                LoginErrorTextBlock.Text = "Gebruikersnaam en wachtwoord zijn verplicht.";
+                LoginErrorTextBlock.Foreground = new SolidColorBrush(Colors.Red); // Gebruik Colors.Red
+                LoginErrorTextBlock.Visibility = Visibility.Visible;
             }
             else
             {
-                LoginErrorTextBlock.Text = "Ongeldige gebruikersnaam of wachtwoord.";
-                LoginErrorTextBlock.Visibility = Visibility.Visible;
+                if (username == "test" && password == "1234") // Vervang dit met jouw logica
+                {
+                    LoginErrorTextBlock.Text = "Inloggen geslaagd!";
+                    LoginErrorTextBlock.Foreground = new SolidColorBrush(Colors.Green); // Gebruik Colors.Green
+                    LoginErrorTextBlock.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    LoginErrorTextBlock.Text = "Ongeldige gebruikersnaam of wachtwoord.";
+                    LoginErrorTextBlock.Foreground = new SolidColorBrush(Colors.Red);
+                    LoginErrorTextBlock.Visibility = Visibility.Visible;
+                }
             }
         }
 
-        // Registreren
-        private async void RegisterButton_Click(object sender, RoutedEventArgs e)
+        private void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
             string username = RegisterUsernameTextBox.Text;
             string password = RegisterPasswordBox.Password;
@@ -82,32 +90,21 @@ namespace school
 
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
-                RegisterErrorTextBlock.Text = "Vul alle velden in.";
+                RegisterErrorTextBlock.Text = "Alle velden zijn verplicht.";
+                RegisterErrorTextBlock.Foreground = new SolidColorBrush(Colors.Red); // Gebruik Colors.Red
                 RegisterErrorTextBlock.Visibility = Visibility.Visible;
             }
             else if (password != confirmPassword)
             {
                 RegisterErrorTextBlock.Text = "Wachtwoorden komen niet overeen.";
-                RegisterErrorTextBlock.Visibility = Visibility.Visible;
-            }
-            else if (await _dbHelper.GetUserByUsernameAsync(username) != null)
-            {
-                RegisterErrorTextBlock.Text = "Gebruikersnaam bestaat al.";
+                RegisterErrorTextBlock.Foreground = new SolidColorBrush(Colors.Red);
                 RegisterErrorTextBlock.Visibility = Visibility.Visible;
             }
             else
             {
-                await _dbHelper.AddUserAsync(new User { Username = username, Password = password });
-                RegisterErrorTextBlock.Visibility = Visibility.Collapsed;
-
-                ContentDialog successDialog = new ContentDialog
-                {
-                    Title = "Succes",
-                    Content = "Registratie succesvol! Je kunt nu inloggen.",
-                    CloseButtonText = "OK",
-                    XamlRoot = this.Content.XamlRoot
-                };
-                await successDialog.ShowAsync();
+                RegisterErrorTextBlock.Text = "Registratie geslaagd!";
+                RegisterErrorTextBlock.Foreground = new SolidColorBrush(Colors.Green); // Gebruik Colors.Green
+                RegisterErrorTextBlock.Visibility = Visibility.Visible;
             }
         }
     }
