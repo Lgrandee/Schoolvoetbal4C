@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Schoolvoetbalapp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Schoolvoetbalapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Schoolvoetbalapp">
+    <Grid Padding="20" x:Name="RootGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <!-- Added a third row for GokkersListView -->
+        </Grid.RowDefinitions>
+
+        <!-- Button panel -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Button Content="Synchroniseer Data" Click="SyncDataButton_Click" Margin="0,0,10,0"/>
+            <Button Content="Startbedrag Instellen" Click="AddStartingAmountButton_Click"/>
+        </StackPanel>
+
+        <!-- ListViews -->
+        <ListView x:Name="WedstrijdenListView" Grid.Row="1" Margin="0, 0, 0, 10"/>
+        <ListView x:Name="GokkersListView" Grid.Row="2"/>
+        
+    </Grid>
+</Window>

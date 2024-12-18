@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\Migrations\\20241213102602_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:school\\Migrations\\20241213102602_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|c:\\users\\ljt_d\\documents\\native\\schoolvoetbal4c\\school\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|solutionrelative:school\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|c:\\users\\ljt_d\\documents\\native\\schoolvoetbal4c\\school\\data\\apponlinecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|solutionrelative:school\\data\\apponlinecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|c:\\users\\ljt_d\\documents\\native\\schoolvoetbal4c\\school\\data\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|solutionrelative:school\\data\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|c:\\users\\ljt_d\\documents\\native\\schoolvoetbal4c\\school\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|solutionrelative:school\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|c:\\users\\ljt_d\\documents\\native\\schoolvoetbal4c\\school\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|solutionrelative:school\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|c:\\users\\ljt_d\\documents\\native\\schoolvoetbal4c\\school\\school.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|solutionrelative:school\\school.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|c:\\users\\ljt_d\\documents\\native\\schoolvoetbal4c\\school\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|solutionrelative:school\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|c:\\users\\ljt_d\\documents\\native\\schoolvoetbal4c\\school\\migrations\\20241213102602_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E613FA6-35EE-4304-91A7-AB4A1DAF9BFE}|school\\school.csproj|solutionrelative:school\\migrations\\20241213102602_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +34,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241213102602_users.cs",
-              "DocumentMoniker": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\Migrations\\20241213102602_users.cs",
-              "RelativeDocumentMoniker": "school\\Migrations\\20241213102602_users.cs",
-              "ToolTip": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\Migrations\\20241213102602_users.cs",
-              "RelativeToolTip": "school\\Migrations\\20241213102602_users.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "school\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "school\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T10:26:02.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "users.cs",
-              "DocumentMoniker": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\Data\\users.cs",
-              "RelativeDocumentMoniker": "school\\Data\\users.cs",
-              "ToolTip": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\Data\\users.cs",
-              "RelativeToolTip": "school\\Data\\users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T08:53:19.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "school\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\MainWindow.xaml",
-              "RelativeToolTip": "school\\MainWindow.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-13T10:03:28.248Z",
+              "WhenOpened": "2024-12-11T08:41:13.92Z",
               "EditorCaption": ""
             },
             {
@@ -79,31 +61,66 @@
               "RelativeDocumentMoniker": "school\\Data\\AppOnlineContext.cs",
               "ToolTip": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\Data\\AppOnlineContext.cs",
               "RelativeToolTip": "school\\Data\\AppOnlineContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T08:45:03.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "school\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\MainWindow.xaml.cs",
-              "RelativeToolTip": "school\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAkwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T08:41:13.92Z",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "school\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\MainWindow.xaml*",
+              "RelativeToolTip": "school\\MainWindow.xaml*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T10:03:28.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "school",
+              "DocumentMoniker": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\school.csproj",
+              "RelativeDocumentMoniker": "school\\school.csproj",
+              "ToolTip": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\school.csproj",
+              "RelativeToolTip": "school\\school.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-16T08:35:28.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "users.cs",
+              "DocumentMoniker": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\Model\\users.cs",
+              "RelativeDocumentMoniker": "school\\Model\\users.cs",
+              "ToolTip": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\Model\\users.cs",
+              "RelativeToolTip": "school\\Model\\users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:53:19.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241213102602_users.cs",
+              "DocumentMoniker": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\Migrations\\20241213102602_users.cs",
+              "RelativeDocumentMoniker": "school\\Migrations\\20241213102602_users.cs",
+              "ToolTip": "C:\\Users\\ljt_d\\Documents\\native\\Schoolvoetbal4C\\school\\Migrations\\20241213102602_users.cs",
+              "RelativeToolTip": "school\\Migrations\\20241213102602_users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T10:26:02.756Z",
+              "EditorCaption": ""
             }
           ]
         }
